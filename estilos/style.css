@@ -17,7 +17,6 @@ body{
 }
 .cabecalho__menu{
     display: flex;
-    gap: 80px; /*separa os dois elementos*/
     text-decoration: none;
     color: #22d4fd;
 }
@@ -26,9 +25,12 @@ body{
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
-    margin-right: 1em;
+    margin-right: 100px;
     color: #22d4fd;
     text-align: center;
+}
+.cabecalho__menu__link:last-child {
+    margin-right: 0; /* Remove o espaçamento do último item */
 }
 .cabecalho__menu__link:hover{
     font-size: 26px;
@@ -42,14 +44,14 @@ body{
 .titulo-destaque{
     color: #22d4fd;
 }
-.parágrafo1{
+.paragrafo1{
     color:blueviolet;
 }
 .container{
     /*margin: 5% 15%;
     margin-left: 15%;
     margin-right: 15%;*/
-    padding: 8% 15%;
+    padding: 5% 15%;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -104,6 +106,7 @@ body{
     color:#000000;
     background-color: #22D4FD;
     text-align: center;
+    font-family: 'Montserrat',sans-serif;
     font-size: 24px;
     font-weight: 400;
 }
