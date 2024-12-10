@@ -31,7 +31,7 @@ body{
 }
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     margin-right: 100px;
@@ -42,13 +42,15 @@ body{
     margin-right: 0; /* Remove o espaçamento do último item */
 }
 .cabecalho__menu__link:hover{
-    font-size: 26px;
+    font: size 1.62rem;
     color:blueviolet;
 }
 .imagemLucas{
-    width: 370px;
-    height: 450px;
-    border-radius: 7%
+    width: 45%; /* Responsivo, ajuste o valor conforme necessário */
+    aspect-ratio: 370 / 450; /* Mantém a proporção original */
+    border-radius: 7%;
+    object-fit: cover; /* Garante que a imagem se ajuste corretamente ao espaço */
+    margin-left: 100px; 
 }
 .titulo-destaque{
     color: var(--cor-secundaria);
@@ -72,11 +74,11 @@ body{
     gap:40px;
 }
 .container__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-principal);
 }
 .container__conteudo__paragrafo{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: var(--fonte-secundaria)
 }
 .apresentacao__links{
@@ -89,7 +91,7 @@ body{
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-principal);
     font-weight: 400px;
-    font-size:24px;
+    font-size:1.25rem;
 }
 .apresentacao__links__link{
     /* background-color: #22d4fd; */
@@ -97,10 +99,10 @@ body{
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-secundaria);;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-terciaria);
@@ -116,7 +118,7 @@ body{
     background-color: var(--cor-secundaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
